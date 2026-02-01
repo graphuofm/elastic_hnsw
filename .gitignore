@@ -1,0 +1,8 @@
+data/              # SIFT数据集（太大，几百MB）
+hnswlib/           # 别人的代码（nmslib的仓库）
+__pycache__/       # Python缓存
+*.pyc              # Python编译文件
+*.so               # 编译产物
+*.o                # 编译产物
+*.log              # 日志文件
+*.egg-info/        # Python包信息

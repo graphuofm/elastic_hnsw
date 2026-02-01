@@ -1,0 +1,256 @@
+{
+  "config": {
+    "index_size": 100000,
+    "num_rounds": 200,
+    "churn_per_round": 10000,
+    "total_churn": 2000000,
+    "M": 16,
+    "ef_construction": 200,
+    "ef_search": 64
+  },
+  "build_time": 2.2880904357880354,
+  "test_time": 6250.2701558526605,
+  "results": [
+    {
+      "round": 0,
+      "cumulative_churn": 0,
+      "churn_multiplier": 0,
+      "latency_mean": 0.17802339047193527,
+      "latency_p50": 0.18020160496234894,
+      "latency_p95": 0.23454520851373672,
+      "latency_p99": 0.2761052362620832,
+      "latency_max": 0.31001120805740356,
+      "recall": 0.9930000000000001
+    },
+    {
+      "round": 10,
+      "cumulative_churn": 100000,
+      "churn_multiplier": 1.0,
+      "latency_mean": 0.3181055001914501,
+      "latency_p50": 0.316571444272995,
+      "latency_p95": 0.4300103522837162,
+      "latency_p99": 0.4624599404633048,
+      "latency_max": 0.519677996635437,
+      "recall": 0.9960000000000001
+    },
+    {
+      "round": 20,
+      "cumulative_churn": 200000,
+      "churn_multiplier": 2.0,
+      "latency_mean": 0.45263735577464104,
+      "latency_p50": 0.4485202953219414,
+      "latency_p95": 0.6171138025820255,
+      "latency_p99": 0.7324690930545336,
+      "latency_max": 0.8370894938707352,
+      "recall": 0.9919999999999999
+    },
+    {
+      "round": 30,
+      "cumulative_churn": 300000,
+      "churn_multiplier": 3.0,
+      "latency_mean": 0.5371298082172871,
+      "latency_p50": 0.5302140489220619,
+      "latency_p95": 0.7324585691094398,
+      "latency_p99": 0.9508214890956888,
+      "latency_max": 1.132715493440628,
+      "recall": 0.992
+    },
+    {
+      "round": 40,
+      "cumulative_churn": 400000,
+      "churn_multiplier": 4.0,
+      "latency_mean": 0.6176820024847984,
+      "latency_p50": 0.6217136979103088,
+      "latency_p95": 0.8386291563510895,
+      "latency_p99": 0.9991398453712467,
+      "latency_max": 1.0692346841096878,
+      "recall": 0.9969999999999999
+    },
+    {
+      "round": 50,
+      "cumulative_churn": 500000,
+      "churn_multiplier": 5.0,
+      "latency_mean": 0.7089881785213947,
+      "latency_p50": 0.6969692185521126,
+      "latency_p95": 0.9261899627745152,
+      "latency_p99": 1.304884459823371,
+      "latency_max": 1.524047926068306,
+      "recall": 0.996
+    },
+    {
+      "round": 60,
+      "cumulative_churn": 600000,
+      "churn_multiplier": 6.0,
+      "latency_mean": 0.7344766892492771,
+      "latency_p50": 0.7187854498624802,
+      "latency_p95": 0.9348596446216105,
+      "latency_p99": 1.274816803634168,
+      "latency_max": 1.5497710555791855,
+      "recall": 0.997
+    },
+    {
+      "round": 70,
+      "cumulative_churn": 700000,
+      "churn_multiplier": 7.0,
+      "latency_mean": 0.796004980802536,
+      "latency_p50": 0.7880134508013725,
+      "latency_p95": 1.0059542953968048,
+      "latency_p99": 1.3206473924219608,
+      "latency_max": 1.3330336660146713,
+      "recall": 0.995
+    },
+    {
+      "round": 80,
+      "cumulative_churn": 800000,
+      "churn_multiplier": 8.0,
+      "latency_mean": 0.8478990569710732,
+      "latency_p50": 0.8359914645552635,
+      "latency_p95": 1.0940652340650558,
+      "latency_p99": 1.5468815341591842,
+      "latency_max": 1.6867872327566147,
+      "recall": 0.9990000000000001
+    },
+    {
+      "round": 90,
+      "cumulative_churn": 900000,
+      "churn_multiplier": 9.0,
+      "latency_mean": 0.8897913061082363,
+      "latency_p50": 0.8759386837482452,
+      "latency_p95": 1.2388288043439388,
+      "latency_p99": 1.410668343305588,
+      "latency_max": 1.473328098654747,
+      "recall": 0.9990000000000001
+    },
+    {
+      "round": 100,
+      "cumulative_churn": 1000000,
+      "churn_multiplier": 10.0,
+      "latency_mean": 0.9007428213953972,
+      "latency_p50": 0.8899141103029251,
+      "latency_p95": 1.2116765603423116,
+      "latency_p99": 1.4172389172017577,
+      "latency_max": 1.4702267944812775,
+      "recall": 0.993
+    },
+    {
+      "round": 110,
+      "cumulative_churn": 1100000,
+      "churn_multiplier": 11.0,
+      "latency_mean": 0.9279466979205608,
+      "latency_p50": 0.9134011343121529,
+      "latency_p95": 1.3088789768517017,
+      "latency_p99": 1.6432882845401777,
+      "latency_max": 1.8942002207040787,
+      "recall": 0.9969999999999999
+    },
+    {
+      "round": 120,
+      "cumulative_churn": 1200000,
+      "churn_multiplier": 12.0,
+      "latency_mean": 0.9873739443719387,
+      "latency_p50": 0.9681740775704384,
+      "latency_p95": 1.35745033621788,
+      "latency_p99": 1.65596079081297,
+      "latency_max": 1.8223244696855545,
+      "recall": 0.995
+    },
+    {
+      "round": 130,
+      "cumulative_churn": 1300000,
+      "churn_multiplier": 13.0,
+      "latency_mean": 1.0072768293321133,
+      "latency_p50": 0.9938422590494156,
+      "latency_p95": 1.3913882896304128,
+      "latency_p99": 1.8113944493234175,
+      "latency_max": 2.1569617092609406,
+      "recall": 0.996
+    },
+    {
+      "round": 140,
+      "cumulative_churn": 1400000,
+      "churn_multiplier": 14.0,
+      "latency_mean": 1.0326405800879002,
+      "latency_p50": 1.0070130228996277,
+      "latency_p95": 1.4453483745455742,
+      "latency_p99": 1.7949590645730504,
+      "latency_max": 1.9801557064056396,
+      "recall": 0.997
+    },
+    {
+      "round": 150,
+      "cumulative_churn": 1500000,
+      "churn_multiplier": 15.0,
+      "latency_mean": 1.1189444176852703,
+      "latency_p50": 1.0911384597420692,
+      "latency_p95": 1.4515858143568032,
+      "latency_p99": 1.7876537330448656,
+      "latency_max": 2.349764108657837,
+      "recall": 0.9920000000000002
+    },
+    {
+      "round": 160,
+      "cumulative_churn": 1600000,
+      "churn_multiplier": 16.0,
+      "latency_mean": 1.1181963980197906,
+      "latency_p50": 1.0776976123452187,
+      "latency_p95": 1.5475598163902757,
+      "latency_p99": 1.7380613461136851,
+      "latency_max": 2.394823357462883,
+      "recall": 0.9940000000000001
+    },
+    {
+      "round": 170,
+      "cumulative_churn": 1700000,
+      "churn_multiplier": 17.0,
+      "latency_mean": 1.1305911093950272,
+      "latency_p50": 1.1000605300068855,
+      "latency_p95": 1.482063066214323,
+      "latency_p99": 1.6390984319150472,
+      "latency_max": 2.106606960296631,
+      "recall": 0.9940000000000001
+    },
+    {
+      "round": 180,
+      "cumulative_churn": 1800000,
+      "churn_multiplier": 18.0,
+      "latency_mean": 1.2105017341673374,
+      "latency_p50": 1.1657513678073883,
+      "latency_p95": 1.5983227640390394,
+      "latency_p99": 2.236742638051512,
+      "latency_max": 2.6852190494537354,
+      "recall": 0.993
+    },
+    {
+      "round": 190,
+      "cumulative_churn": 1900000,
+      "churn_multiplier": 19.0,
+      "latency_mean": 1.2474664486944675,
+      "latency_p50": 1.193600706756115,
+      "latency_p95": 1.8073047511279583,
+      "latency_p99": 2.250470481812954,
+      "latency_max": 2.265801653265953,
+      "recall": 0.9940000000000001
+    },
+    {
+      "round": 200,
+      "cumulative_churn": 2000000,
+      "churn_multiplier": 20.0,
+      "latency_mean": 1.2595212273299694,
+      "latency_p50": 1.2288093566894531,
+      "latency_p95": 1.861085649579763,
+      "latency_p99": 2.5313298776745805,
+      "latency_max": 2.723177894949913,
+      "recall": 0.9849999999999999
+    }
+  ],
+  "summary": {
+    "init_latency_mean": 0.17802339047193527,
+    "final_latency_mean": 1.2595212273299694,
+    "latency_growth": 7.075032241499345,
+    "init_p99": 0.2761052362620832,
+    "final_p99": 2.5313298776745805,
+    "p99_growth": 9.167989393985286,
+    "init_recall": 0.9930000000000001,
+    "final_recall": 0.9849999999999999
+  }
+}
